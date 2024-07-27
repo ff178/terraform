@@ -5,7 +5,7 @@ resource "aws_instance" "web" {
     version = "$Latest"
   }
 
-  subnet_id = aws_subnet.terraform1.id
+  # subnet_id = aws_subnet.terraform1.id
 
   tags = {
     Name = "web-instance-${count.index + 1}"
