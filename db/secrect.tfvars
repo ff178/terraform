@@ -1,2 +1,2 @@
-# db_username = "admin"
-# db_password = "admin"
+db_username = "admin"
+db_password = "admin"
